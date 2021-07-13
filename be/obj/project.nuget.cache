@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Ec1ZnhllrbH+9wXgTk/3bVIXM2VF1qk3XHvsQHCg61EDM1D+zUj70A27lbOsO99hOHXXYcQaynFl+wNeRFm7Q==",
+  "dgSpecHash": "MHCXLvy+aqf/xyyj3zs+O3vVeNGwnVtmJcxIMEQ0VW95AQSAQwR00xMIbAuY4xui0woWSkaTUpvwlWONGwRanw==",
   "success": true,
-  "projectFilePath": "D:\\Data\\project\\kalbe\\app\\e-testing\\e-testing\\be\\api.csproj",
+  "projectFilePath": "D:\\Data\\project\\kalbe\\template\\e-testing\\e-testing\\be\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.aspnet.mvc\\4.0.20710\\microsoft.aspnet.mvc.4.0.20710.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.aspnet.razor\\2.0.20710\\microsoft.aspnet.razor.2.0.20710.nupkg.sha512",
