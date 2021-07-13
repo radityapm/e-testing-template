@@ -8197,11 +8197,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Data\\project\\kalbe\\app\\e-testing\\e-testing\\fe\\cms.csproj",
+      "projectUniqueName": "D:\\Data\\project\\kalbe\\template\\e-testing\\e-testing\\fe\\cms.csproj",
       "projectName": "cms",
-      "projectPath": "D:\\Data\\project\\kalbe\\app\\e-testing\\e-testing\\fe\\cms.csproj",
+      "projectPath": "D:\\Data\\project\\kalbe\\template\\e-testing\\e-testing\\fe\\cms.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Data\\project\\kalbe\\app\\e-testing\\e-testing\\fe\\obj\\",
+      "outputPath": "D:\\Data\\project\\kalbe\\template\\e-testing\\e-testing\\fe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pSSHqqXN+2IXfE3IUUBm+ScQBlEQSZCoLXf3SV7Qp+OWPiBUnxBhhzZkXoavNCpLMd8RsNOkNPaMG04iP5u+0Q==",
+  "dgSpecHash": "m4t6E+O6102rP5pafdcN6fW9G7Ex5ShPkNec3UgYvBKM90URcRpXum3fTndOdum/qVNZ6e82TEW51GWsxnMhLg==",
   "success": true,
-  "projectFilePath": "D:\\Data\\project\\kalbe\\app\\e-testing\\e-testing\\fe\\cms.csproj",
+  "projectFilePath": "D:\\Data\\project\\kalbe\\template\\e-testing\\e-testing\\fe\\cms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI\\.nuget\\packages\\aspnetcore.iservicecollection.addiurlhelper\\1.1.0\\aspnetcore.iservicecollection.addiurlhelper.1.1.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\bootstrap\\4.5.2\\bootstrap.4.5.2.nupkg.sha512",
