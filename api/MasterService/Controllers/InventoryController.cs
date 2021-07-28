@@ -27,6 +27,7 @@ namespace MasterService.Controllers
         [HttpGet("get-inventory/{id}")]
         public IActionResult GetInventory(int id)
         {
+
             return Ok(_inventory.GetInventory(id));
         }
     }
