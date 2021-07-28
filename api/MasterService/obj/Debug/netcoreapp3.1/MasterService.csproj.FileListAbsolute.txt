@@ -58,3 +58,4 @@ D:\Data\project\kalbe\template\e-testing\e-testing\api\MasterService\obj\Debug\n
 D:\Data\project\kalbe\template\e-testing\e-testing\api\MasterService\obj\Debug\netcoreapp3.1\MasterService.dll
 D:\Data\project\kalbe\template\e-testing\e-testing\api\MasterService\obj\Debug\netcoreapp3.1\MasterService.pdb
 D:\Data\project\kalbe\template\e-testing\e-testing\api\MasterService\obj\Debug\netcoreapp3.1\MasterService.genruntimeconfig.cache
+D:\Data\project\kalbe\template\e-testing\e-testing\api\MasterService\obj\Debug\netcoreapp3.1\MasterService.csproj.AssemblyReference.cache
