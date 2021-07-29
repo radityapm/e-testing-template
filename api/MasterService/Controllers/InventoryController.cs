@@ -1,4 +1,5 @@
-﻿using MasterService.Models.Inventory;
+﻿using MasterService.Libs;
+using MasterService.Models.Inventory;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -8,27 +9,37 @@ using System.Threading.Tasks;
 
 namespace MasterService.Controllers
 {
-    [Route("[controller]")]
     [ApiController]
+    [Route("[controller]")]
     public class InventoryController : ControllerBase
     {
-        private IInventory _inventory;
-        public InventoryController(IInventory inventory)
+        private readonly InventoryDAL inventoryService;
+
+        public InventoryController(InventoryDAL _inventoryService)
         {
-            _inventory = inventory;
+            inventoryService = _inventoryService;
         }
 
-        [HttpGet("get-inventory")]
-        public IActionResult GetInventory()
+        [Route("get-inventory")]
+        [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult<PagedResult<InventoryModel>>> List()
         {
-           return Ok(_inventory.GetInventories());
+            int page = 1;
+            int pagesize = 25;
+            var count = await inventoryService.CountAll();
+            var items = await inventoryService.Filter(page, pagesize);
+            var pagedResult = new PagedResult<InventoryModel>(items, count, page, pagesize);
+
+            return pagedResult;
         }
 
-        [HttpGet("get-inventory/{id}")]
-        public IActionResult GetInventory(int id)
+        [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<InventoryModel>> Retrieve(int id)
         {
-
-            return Ok(_inventory.GetInventory(id));
+            return await inventoryService.FindOne(id);
         }
     }
 }
